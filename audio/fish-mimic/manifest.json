@@ -1,0 +1,37 @@
+[
+  {
+    "letter": "A",
+    "file": "fish-a.mp3",
+    "phone": "AE1",
+    "voice": "829184c635314c9485e48690116ff8ad",
+    "text": "[screaming] <|phoneme_start|>AE1 AE1 AE1 AE1 AE1 AE1 AE1 AE1 AE1 AE1 AE1 AE1<|phoneme_end|>"
+  },
+  {
+    "letter": "E",
+    "file": "fish-e.mp3",
+    "phone": "EH1",
+    "voice": "829184c635314c9485e48690116ff8ad",
+    "text": "[screaming] <|phoneme_start|>EH1 EH1 EH1 EH1 EH1 EH1 EH1 EH1 EH1 EH1 EH1 EH1<|phoneme_end|>"
+  },
+  {
+    "letter": "I",
+    "file": "fish-i.mp3",
+    "phone": "IH1",
+    "voice": "829184c635314c9485e48690116ff8ad",
+    "text": "[screaming] <|phoneme_start|>IH1 IH1 IH1 IH1 IH1 IH1 IH1 IH1 IH1 IH1 IH1 IH1<|phoneme_end|>"
+  },
+  {
+    "letter": "O",
+    "file": "fish-o.mp3",
+    "phone": "AA1",
+    "voice": "829184c635314c9485e48690116ff8ad",
+    "text": "[screaming] <|phoneme_start|>AA1 AA1 AA1 AA1 AA1 AA1 AA1 AA1 AA1 AA1 AA1 AA1<|phoneme_end|>"
+  },
+  {
+    "letter": "U",
+    "file": "fish-u.mp3",
+    "phone": "AH1",
+    "voice": "829184c635314c9485e48690116ff8ad",
+    "text": "[screaming] <|phoneme_start|>AH1 AH1 AH1 AH1 AH1 AH1 AH1 AH1 AH1 AH1 AH1 AH1<|phoneme_end|>"
+  }
+]

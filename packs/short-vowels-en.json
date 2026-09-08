@@ -1,0 +1,150 @@
+{
+  "pack_id": "short-vowels-en",
+  "pack_version": "0.12.0",
+  "module_id": "vowel-coaster",
+  "activity_id": "short-vowel-ride",
+  "title": "Vowel Coaster",
+  "subtitle": "Hear the short vowel. Two tracks first, then three.",
+  "locale": "en",
+  "ui_locale": "en",
+  "skill_tags": ["phonics", "short-vowel", "listening"],
+  "homes": ["phone-app", "web", "3d-world-door"],
+  "not_homes": ["word-factory"],
+  "source": "AIPA_Core/Vowels/youtube-cuts — A 17-25, E/I/U 35-43, O 5-10.",
+  "progression": {
+    "kind": "pair-then-triple",
+    "pair_lanes": 2,
+    "triple_lanes": 3,
+    "unlock_order": ["A", "E", "I", "U", "O"]
+  },
+  "mastery": {
+    "consecutive_correct": 3,
+    "pairs_before_triples": 3,
+    "cracks_per_letter": 3,
+    "accuracy_floor": 0,
+    "min_items": 3,
+    "max_median_latency_ms": 99999,
+    "fail_mix_drop_back": false
+  },
+  "l1_help": {
+    "en": "Listen. Take the track that matches the sound.",
+    "ko": "소리를 듣고, 같은 글자 트랙을 고르세요.",
+    "ja": "音を聞いて、同じ文字のレールを選んで。",
+    "zh": "听声音，选对应字母的轨道。",
+    "vi": "Nghe âm, chọn đường có chữ đúng.",
+    "th": "ฟังเสียง แล้วเลือกรางตัวอักษรที่ตรงกัน",
+    "es": "Escucha. Elige el riel de la letra.",
+    "fr": "Écoute. Prends le rail de la lettre.",
+    "pt": "Ouça. Escolha o trilho da letra.",
+    "id": "Dengar. Pilih rel huruf yang sama."
+  },
+  "items": [
+    {
+      "item_id": "sv-a",
+      "letter": "A",
+      "phoneme": "æ",
+      "ipa": "/æ/",
+      "word_hint": "cat",
+      "skill_tags": ["phonics", "short-vowel", "ae"],
+      "audio": {
+        "scream": "../audio/youtube-short/short-a-17-25.wav",
+        "fallback_hz": 196
+      },
+      "color": "#ff3d7f",
+      "l1_help": {
+        "en": "Short A — like cat.",
+        "ko": "짧은 A — cat(고양이)의 a."
+      }
+    },
+    {
+      "item_id": "sv-e",
+      "letter": "E",
+      "phoneme": "ɛ",
+      "ipa": "/ɛ/",
+      "word_hint": "bed",
+      "skill_tags": ["phonics", "short-vowel", "eh"],
+      "audio": {
+        "scream": "../audio/youtube-short/short-e-35-43.wav",
+        "fallback_hz": 247
+      },
+      "color": "#00e5ff",
+      "l1_help": {
+        "en": "Short E — like bed.",
+        "ko": "짧은 E — bed(침대)의 e."
+      }
+    },
+    {
+      "item_id": "sv-i",
+      "letter": "I",
+      "phoneme": "ɪ",
+      "ipa": "/ɪ/",
+      "word_hint": "sit",
+      "skill_tags": ["phonics", "short-vowel", "ih"],
+      "audio": {
+        "scream": "../audio/youtube-short/short-i-35-43.wav",
+        "fallback_hz": 294
+      },
+      "color": "#ffe66d",
+      "l1_help": {
+        "en": "Short I — like sit.",
+        "ko": "짧은 I — sit(앉다)의 i."
+      }
+    },
+    {
+      "item_id": "sv-o",
+      "letter": "O",
+      "phoneme": "ɑ",
+      "ipa": "/ɑ/",
+      "word_hint": "hot",
+      "skill_tags": ["phonics", "short-vowel", "aa"],
+      "audio": {
+        "scream": "../audio/youtube-short/short-o-5-10.wav",
+        "fallback_hz": 165
+      },
+      "color": "#7cff6b",
+      "l1_help": {
+        "en": "Short O — like hot.",
+        "ko": "짧은 O — hot(뜨거운)의 o."
+      }
+    },
+    {
+      "item_id": "sv-u",
+      "letter": "U",
+      "phoneme": "ʌ",
+      "ipa": "/ʌ/",
+      "word_hint": "cup",
+      "skill_tags": ["phonics", "short-vowel", "ah"],
+      "audio": {
+        "scream": "../audio/youtube-short/short-u-35-43.wav",
+        "fallback_hz": 220
+      },
+      "color": "#c77dff",
+      "l1_help": {
+        "en": "Short U — like cup.",
+        "ko": "짧은 U — cup(컵)의 u."
+      }
+    }
+  ],
+  "stages": [
+    {
+      "id": "pair-seed",
+      "label": "Two sounds",
+      "targets": ["A", "E"],
+      "pool": ["A", "E"],
+      "lanes": 2,
+      "mix": true,
+      "need_consecutive": 3,
+      "prompt": "Hear it. Left or right."
+    },
+    {
+      "id": "triple-seed",
+      "label": "Three tracks",
+      "targets": ["A", "E", "I"],
+      "pool": ["A", "E", "I"],
+      "lanes": 3,
+      "mix": true,
+      "need_consecutive": 3,
+      "prompt": "Hear it. Left, middle, or right."
+    }
+  ]
+}

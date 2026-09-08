@@ -1,0 +1,64 @@
+{
+  "pack_id": "demo-swap-ai",
+  "pack_version": "0.1.0",
+  "module_id": "vowel-coaster",
+  "activity_id": "swap-demo-ai",
+  "title": "Swap Pack — A / I",
+  "subtitle": "Same ride. Different letters.",
+  "locale": "en",
+  "ui_locale": "en",
+  "skill_tags": ["phonics", "short-vowel", "pack-swap"],
+  "homes": ["phone-app", "web", "3d-world-door"],
+  "not_homes": ["word-factory"],
+  "mastery": {
+    "consecutive_correct": 3,
+    "accuracy_floor": 0.8,
+    "min_items": 4,
+    "max_median_latency_ms": 2800,
+    "fail_mix_drop_back": true
+  },
+  "l1_help": {
+    "en": "Pack swap demo. Tap A or I. Sounds come later.",
+    "ko": "팩 교체 데모. A 또는 I를 듣고 누르세요."
+  },
+  "items": [
+    {
+      "item_id": "swap-a",
+      "letter": "A",
+      "phoneme": "æ",
+      "ipa": "/æ/",
+      "word_hint": "cat",
+      "skill_tags": ["phonics", "short-vowel", "ae"],
+      "audio": {
+        "scream": "../audio/round1/01_short_A_cat.mp3",
+        "fallback_hz": 196
+      },
+      "color": "#ffd166"
+    },
+    {
+      "item_id": "swap-i",
+      "letter": "I",
+      "phoneme": "ɪ",
+      "ipa": "/ɪ/",
+      "word_hint": "sit",
+      "skill_tags": ["phonics", "short-vowel", "ih"],
+      "audio": {
+        "scream": "../audio/round1/03_short_I_sit.mp3",
+        "fallback_hz": 294
+      },
+      "color": "#06d6a0"
+    }
+  ],
+  "stages": [
+    {
+      "id": "swap-mix",
+      "label": "A or I",
+      "targets": ["A", "I"],
+      "pool": ["A", "I"],
+      "lanes": 2,
+      "mix": true,
+      "need_consecutive": 3,
+      "prompt": "Same engine. New pack."
+    }
+  ]
+}

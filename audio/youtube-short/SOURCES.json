@@ -1,0 +1,52 @@
+{
+  "saved_at": "2026-08-26T05:40:00+09:00",
+  "folder": "AIPA_Core/Vowels/youtube-cuts",
+  "note": "A/E/I/U: first 2 seconds of the original 10s cuts dropped. Play remaining 8s.",
+  "clips": [
+    {
+      "letter": "A",
+      "file": "short-a-17-25.wav",
+      "url": "https://youtu.be/HFjYo0G96K0",
+      "video_id": "HFjYo0G96K0",
+      "start_s": 17,
+      "end_s": 25,
+      "dropped_head_s": 2
+    },
+    {
+      "letter": "E",
+      "file": "short-e-35-43.wav",
+      "url": "https://youtu.be/wMpQZeuxLAM",
+      "video_id": "wMpQZeuxLAM",
+      "start_s": 35,
+      "end_s": 43,
+      "dropped_head_s": 2
+    },
+    {
+      "letter": "I",
+      "file": "short-i-35-43.wav",
+      "url": "https://youtu.be/sdWCnMv7uOA",
+      "video_id": "sdWCnMv7uOA",
+      "start_s": 35,
+      "end_s": 43,
+      "dropped_head_s": 2
+    },
+    {
+      "letter": "O",
+      "file": "short-o-5-10.wav",
+      "url": "https://youtu.be/0rDCgS6gYnc",
+      "video_id": "0rDCgS6gYnc",
+      "start_s": 5,
+      "end_s": 10,
+      "title": "Short O Rap"
+    },
+    {
+      "letter": "U",
+      "file": "short-u-35-43.wav",
+      "url": "https://youtu.be/Klb86UMPrBQ",
+      "video_id": "Klb86UMPrBQ",
+      "start_s": 35,
+      "end_s": 43,
+      "dropped_head_s": 2
+    }
+  ]
+}
