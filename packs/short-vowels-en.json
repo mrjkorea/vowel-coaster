@@ -1,6 +1,6 @@
 {
   "pack_id": "short-vowels-en",
-  "pack_version": "0.12.1",
+  "pack_version": "0.12.2",
   "module_id": "vowel-coaster",
   "activity_id": "short-vowel-ride",
   "title": "Vowel Coaster",
@@ -47,7 +47,7 @@
       "word_hint": "cat",
       "skill_tags": ["phonics", "short-vowel", "ae"],
       "audio": {
-        "scream": "../audio/fish-mimic/fish2-a.mp3",
+        "scream": "../audio/youtube-short/short-a-17-25.wav",
         "fallback_hz": 196
       },
       "color": "#ff3d7f",
@@ -64,7 +64,7 @@
       "word_hint": "bed",
       "skill_tags": ["phonics", "short-vowel", "eh"],
       "audio": {
-        "scream": "../audio/fish-mimic/fish2-e.mp3",
+        "scream": "../audio/youtube-short/short-e-35-43.wav",
         "fallback_hz": 247
       },
       "color": "#00e5ff",
@@ -81,7 +81,7 @@
       "word_hint": "sit",
       "skill_tags": ["phonics", "short-vowel", "ih"],
       "audio": {
-        "scream": "../audio/fish-mimic/fish-i.mp3",
+        "scream": "../audio/youtube-short/short-i-35-43.wav",
         "fallback_hz": 294
       },
       "color": "#ffe66d",
@@ -98,7 +98,7 @@
       "word_hint": "hot",
       "skill_tags": ["phonics", "short-vowel", "aa"],
       "audio": {
-        "scream": "../audio/fish-mimic/fish-o.mp3",
+        "scream": "../audio/youtube-short/short-o-5-10.wav",
         "fallback_hz": 165
       },
       "color": "#7cff6b",
@@ -115,7 +115,7 @@
       "word_hint": "cup",
       "skill_tags": ["phonics", "short-vowel", "ah"],
       "audio": {
-        "scream": "../audio/fish-mimic/fish2-u.mp3",
+        "scream": "../audio/youtube-short/short-u-35-43.wav",
         "fallback_hz": 220
       },
       "color": "#c77dff",
