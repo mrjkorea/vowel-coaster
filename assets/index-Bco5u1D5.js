@@ -3848,6 +3848,13 @@ void main() {
     .vc-err { position:absolute; inset:16px; color:#ffd36a; white-space:pre-wrap; font:13px/1.4 ui-monospace,monospace; }
     .vc-controls { position:absolute; top:max(48px, calc(env(safe-area-inset-top) + 42px));
       left:12px; display:flex; flex-wrap:wrap; gap:6px; pointer-events:auto; max-width:72%; }
+    @media (max-width: 720px) {
+      .vc-top { flex-wrap:wrap; }
+      .vc-chip[data-k="ver"] { display:none; }
+      .vc-controls { top:max(92px, calc(env(safe-area-inset-top) + 86px)); max-width:none; }
+      .vc-prompt { top:16%; }
+      .vc-help { bottom:148px; }
+    }
     .vc-btn { background:rgba(8,2,16,.62); border:1px solid rgba(255,255,255,.18);
       color:#fff8ee; border-radius:999px; padding:6px 12px; font-size:13px; font-weight:700;
       cursor:pointer; backdrop-filter:blur(8px); }
