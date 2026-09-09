@@ -51,7 +51,7 @@ Gameplay (chase camera, forks, tap + keys, A→E→I→U→O from JSON) was alre
 
 ## Remaining gaps
 
-- **Live site updates only after this branch is on `main`.** Until merge/publish, production still has the old `/packs/` fetch.
+- **Live Pages (`main` `/`) is updated.** Confirmed: engine has `vcPackUrl`, pack 0.12.1 points at fish-mimic mp3s, `HOW-TO-PLAY.html` returns 200.
 - No favicon (`/favicon.ico` 404). Does not block play.
 - `audio/youtube-short` wavs, long `fish-a` / `fish-u`, round2, and `aipa-short` wavs remain on disk unused by the default pack.
 - No `pictures/` or `textures/` trees — not required; nothing 404s for images.
